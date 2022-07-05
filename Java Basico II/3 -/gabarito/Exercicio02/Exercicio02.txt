@@ -1,0 +1,20 @@
+Algoritmo "Exercício 2"
+var
+	placa : inteiro
+	mesVistoria : literal
+início
+	leia placa
+	escolha placa mod 10
+		caso 0: mesVistoria <- "Janeiro do proximo ano"
+		caso 1: mesVistoria <- "Fevereiro do proximo ano"
+		caso 2: mesVistoria <- "Marco do proximo ano"
+		caso 3: mesVistoria <- "Abril do proximo ano"
+		caso 4: mesVistoria <- "Maio do proximo ano"
+		caso 5: mesVistoria <- "Junho do proximo ano"
+		caso 6: mesVistoria <- "Setembro deste ano"
+		caso 7: mesVistoria <- "Outubro deste ano"
+		caso 8: mesVistoria <- "Novembro deste ano"
+		caso 9: mesVistoria <- "Dezembro deste ano"
+	fim escolha
+	escreva mesVistoria
+fim

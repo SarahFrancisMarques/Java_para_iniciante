@@ -1,0 +1,11 @@
+Algoritmo "Exercício 13"
+var
+	numHorasTrab, salMin, valHoraTrab, salBruto, imposto, salReceber : real
+início
+	leia numHorasTrab, salMin
+	valHoraTrab <- salMin / 10
+	salBruto <- numHorasTrab * valHoraTrab
+	imposto <- salBruto * 3 / 100
+	salReceber <- salBruto - imposto
+	escreva salReceber
+fim

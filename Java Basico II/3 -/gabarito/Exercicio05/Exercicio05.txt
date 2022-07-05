@@ -1,0 +1,14 @@
+Algoritmo "Exercício 5"
+var
+	numViagens, cont: inteiro
+	litrosComb, distancia, somaKML, mediaKML: real
+início
+	leia numViagens
+	somaKML <- 0
+	para cont de 0 até numViagens-1 faça
+		leia litrosComb, distancia
+		somaKML <- somaKML + distancia / litrosComb
+	fim para
+	mediaKML <- somaKML / numViagens
+	escreva mediaKML
+fim

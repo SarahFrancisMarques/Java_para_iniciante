@@ -1,0 +1,10 @@
+Algoritmo "Exercício 5"
+var
+	salBase, gratif, imposto, salReceber: real
+início
+	leia salBase
+	gratif <- salBase * 5 / 100
+	imposto <- salBase * 7 / 100
+	salReceber <- salBase + gratif - imposto
+	escreva salReceber
+fim

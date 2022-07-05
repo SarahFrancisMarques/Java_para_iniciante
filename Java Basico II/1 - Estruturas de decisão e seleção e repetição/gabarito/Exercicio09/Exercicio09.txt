@@ -1,0 +1,13 @@
+Algoritmo "Exercício 9"
+var
+	salario, aumento, novoSalario: real
+início
+	leia salario
+	se salario < 5000 então
+		aumento <- salario * 30 / 100
+		novoSalario <- salario + aumento
+		escreva novoSalario
+	senão
+		escreva "Este funcionário não tem direito a aumento."
+	fim se
+fim

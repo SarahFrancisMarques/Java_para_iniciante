@@ -1,0 +1,66 @@
+class Main {
+  public static void main(String[] args) {
+
+    int a;
+    System.out.println("\n Digite o primeiro numero: \n");
+    a = Integer.parseInt(System.console().readLine());
+
+    if( a %2 == 0){
+      System.out.printf("\nDividido por 2 = %d ", a/2);
+    }else{
+      System.out.printf("\nNao e dividido por 2 ", a);
+    }
+    if( a %3 == 0){
+      System.out.printf("\nDividido por 3 = %d ", a/3);
+    }else{
+      System.out.printf("\nNao e dividido por 3 ", a);
+    } System.out.printf("\n\n ", a);
+
+    int b;
+    System.out.println("\n Digite o segundo numero: \n");
+    b = Integer.parseInt(System.console().readLine());
+
+    if( b %2 == 0){
+      System.out.printf("\nDividido por 2 = %d ", b/2);
+    }else{
+      System.out.printf("\nNao e dividido por 2 ", b);
+    }
+    if( b %3 == 0){
+      System.out.printf("\nDividido por 3 = %d ", b/3);
+    }else{
+      System.out.printf("\nNao e dividido por 3 ", b);
+    } System.out.printf("\n\n ", b);
+
+    int c;
+    System.out.println("\n Digite o segundo numero: \n");
+    c = Integer.parseInt(System.console().readLine());
+
+    if( c %2 == 0){
+      System.out.printf("\nDividido por 2 = %d ", c/2);
+    }else{
+      System.out.printf("\nNao e dividido por 2 ", c);
+    }
+    if( c %3 == 0){
+      System.out.printf("\nDividido por 3 = %d ", c/3);
+    }else{
+      System.out.printf("\nNao e dividido por 3 ", c);
+    } System.out.printf("\n\n ", c);
+
+    int d;
+    System.out.println("\n Digite o segundo numero: \n");
+    d = Integer.parseInt(System.console().readLine());
+
+    if( d %2 == 0){
+      System.out.printf("\nDividido por 2 = %d ", d/2);
+    }else{
+      System.out.printf("\nNao e dividido por 2 ", d);
+    }
+    if( d %3 == 0){
+      System.out.printf("\nDividido por 3 = %d ", d/3);
+    }else{
+      System.out.printf("\nNao e dividido por 3 ", d);
+    } System.out.printf("\n\n ", d);
+
+  }
+
+}

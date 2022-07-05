@@ -1,0 +1,10 @@
+Algoritmo "Exercício 12"
+var
+	precoFabr, percLucro, percImp, lucroDistr, valorImp, precoFinal: real
+início
+	leia precoFabr, percLucro, percImp
+	lucroDistr <- precoFabr * percLucro / 100
+	valorImp <- precoFabr * percImp / 100
+	precoFinal <- precoFabr + lucroDistr + valorImp
+	escreva lucroDistr, valorImp, precoFinal
+fim

@@ -1,0 +1,23 @@
+class Main {
+  public static void main(String[] args) {
+    int n1, n2;
+
+    System.out.printf("Digite o primeiro número: ");
+    n1 = Integer.parseInt(System.console().readLine());
+
+    System.out.printf("Digite o segundo número: ");
+    n2 = Integer.parseInt(System.console().readLine());
+
+    if(n1 < n2){
+    System.out.printf("Menor número: %d\n", n1);
+    }
+
+    if(n2 < n1){
+    System.out.printf("Menor número: %d\n", n2);
+    }
+
+    if(n1 == n2){
+    System.out.println("Os números são iguais.");
+    }
+}
+}

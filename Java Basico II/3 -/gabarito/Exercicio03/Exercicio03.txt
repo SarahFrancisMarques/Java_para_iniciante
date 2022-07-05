@@ -1,0 +1,12 @@
+Algoritmo "Exercício 3"
+var
+	numero, soma: real
+	cont: inteiro
+início
+	soma <- 0
+	para cont de 0 até 9 faça
+		leia numero
+		soma <- soma + numero
+	fim para 
+	escreva soma
+fim

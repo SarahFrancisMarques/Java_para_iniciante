@@ -1,0 +1,11 @@
+Algoritmo "Exercício 14"
+var
+	salarioMin, quantKW, valorKW, valorAPagar, desconto, valorComDesc : real
+início
+	leia salarioMin, quantKW
+	valorKW <- salarioMin / 5
+	valorAPagar <- valorKW * quantKW
+	desconto <- valorAPagar * 15 / 100
+	valorComDesc <- valorAPagar - desconto
+	escreva valorKW, valorAPagar, valorComDesc
+fim

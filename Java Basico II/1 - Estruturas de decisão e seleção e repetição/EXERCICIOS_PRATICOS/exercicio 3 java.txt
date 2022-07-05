@@ -1,0 +1,28 @@
+class Main {
+  public static void main(String[] args) {
+
+    int a,b,c,delta;
+
+    System.out.println("Digite o primeiro numero: ");
+    a = Integer.parseInt(System.console().readLine());
+
+    System.out.println("Digite o segundo numero: ");
+    b = Integer.parseInt(System.console().readLine());
+
+    System.out.println("Digite o terceiro numero: ");
+    c = Integer.parseInt(System.console().readLine());
+
+    delta = (b*b) - (4*a*c);
+    System.out.printf("\nO valor de delta: %d ", delta);
+
+    if (delta < 0) {
+      System.out.printf("\nNao possui raiz real: ");
+      }
+    if (delta > 0) {
+      System.out.printf("\npossui raiz real: ");
+      } 
+    if (delta == 0) {
+      System.out.printf("\nMostrar que possui uma única raiz real ");
+      } 
+  }
+}

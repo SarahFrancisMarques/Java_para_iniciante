@@ -1,0 +1,9 @@
+Algoritmo "Exercício 7"
+var
+	numero, quad : inteiro
+início
+	para numero de 15 até 200 faça
+		quad <- numero * numero
+		escreva quad
+	fim para
+fim

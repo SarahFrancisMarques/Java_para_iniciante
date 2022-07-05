@@ -1,0 +1,16 @@
+Algoritmo "Exercício 1"
+var
+	num1, num2, dif: inteiro
+início
+	leia num1, num2
+	se num1 < num2 então
+		dif <- num2 - num1
+	fim se
+	se num1 > num2 então
+		dif <- num1 - num2
+	fim se
+	se num1 = num2 então
+		dif <- 0
+	fim se
+	escreva dif
+fim

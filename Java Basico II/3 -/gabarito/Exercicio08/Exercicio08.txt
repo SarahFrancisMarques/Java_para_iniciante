@@ -1,0 +1,9 @@
+Algoritmo "Exercício 8"
+var
+	senha : inteiro
+início
+	repita
+		leia senha
+	até que senha = 1234
+	escreva "Senha correta, acesso liberado."
+fim

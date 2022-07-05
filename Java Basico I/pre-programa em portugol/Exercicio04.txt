@@ -1,0 +1,9 @@
+Algoritmo "Exercício 4"
+var
+	preco, desconto, novoPreco: real
+início
+	leia preco
+	desconto <- preco * 10 / 100
+	novoPreco <- preco - desconto
+	escreva novoPreco
+fim

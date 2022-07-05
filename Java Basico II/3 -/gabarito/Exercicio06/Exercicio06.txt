@@ -1,0 +1,14 @@
+Algoritmo "Exercício 6"
+var
+	numMercadorias, quantVendida, cont : inteiro
+	nome: literal
+	precoUnit, fatTotal : real
+início
+	leia numMercadorias
+	fatTotal <- 0
+	para cont de 0 até numMercadorias-1 faça
+		leia nome, precoUnit, quantVendida
+		fatTotal <- fatTotal + precoUnit * quantVendida
+	fim para
+	escreva fatTotal
+fim

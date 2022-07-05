@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+
+    int num;
+
+    System.out.println("Digite um numero inteiro: ");
+    num = Integer.parseInt(System.console().readLine());
+
+    if (num>1 && num<=9){
+      System.out.printf("o valor esta na faixa permitida");
+    }
+    else{
+      System.out.printf("o valor não esta na faixa permitida");
+    }
+  }
+}

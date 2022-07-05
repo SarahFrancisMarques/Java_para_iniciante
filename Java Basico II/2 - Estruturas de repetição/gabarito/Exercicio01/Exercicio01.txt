@@ -1,0 +1,14 @@
+Algoritmo "Exercício 1"
+var
+	numero, soma: real
+	cont: inteiro
+início
+	soma <- 0
+	cont <- 0
+	enquanto cont < 10 faça
+		leia numero
+		soma <- soma + numero
+		cont <- cont + 1
+	fim enquanto 
+	escreva soma
+fim

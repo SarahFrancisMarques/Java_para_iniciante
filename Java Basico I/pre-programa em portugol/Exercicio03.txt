@@ -1,0 +1,8 @@
+Algoritmo "Exercício 3"
+var
+	n1, n2, n3, media: real
+início
+	leia n1, n2, n3
+	media <- (n1 + n2 + n3) / 3
+	escreva media
+fim

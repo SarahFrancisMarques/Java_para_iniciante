@@ -1,0 +1,8 @@
+Algoritmo "Exercício 9"
+var
+	lado, area: real
+início
+	leia lado
+	area <- lado * lado
+	escreva area
+fim

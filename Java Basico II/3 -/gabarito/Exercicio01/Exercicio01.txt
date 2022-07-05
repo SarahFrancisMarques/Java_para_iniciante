@@ -1,0 +1,22 @@
+Algoritmo "Exercício 1"
+var
+	dia, mes ano : inteiro
+	nomeMes : literal
+início
+	leia dia, mes, ano
+	escolha mes
+		caso 1: nomeMes <- "Janeiro"
+		caso 2: nomeMes <- "Fevereiro"
+		caso 3: nomeMes <- "Março"
+		caso 4: nomeMes <- "Abril"
+		caso 5: nomeMes <- "Maio"
+		caso 6: nomeMes <- "Junho"
+		caso 7: nomeMes <- "Julho"
+		caso 8: nomeMes <- "Agosto"
+		caso 9: nomeMes <- "Setembro"
+		caso 10: nomeMes <- "Outubro"
+		caso 11: nomeMes <- "Novembro"
+		caso 12: nomeMes <- "Dezembro"
+	fim escolha
+	escreva dia, " de ", nomeMes, " de ", ano
+fim

@@ -1,0 +1,24 @@
+Algoritmo "Exercício 10"
+var
+	opcao : inteiro
+	num1, num2, res : real
+início
+	escreva "Menu de opções:"
+	escreva "1. Somar dois números."
+	escreva "2. Número ao quadrado."
+	escreva "Digite a opção desejada: "
+	leia opcao
+
+	escolha opcao
+		caso 1:
+			leia num1, num2
+			res <- num1 + num2
+			escreva res
+		caso 2:
+			leia num1
+			res <- num1 * num1
+			escreva res 
+		senão: 
+			escreva "Opção inválida!"
+	fim escolha 
+fim

@@ -1,0 +1,17 @@
+Algoritmo "Exercício 2"
+var
+	n, cont, soma, somaQuad: inteiro
+	media: real
+início
+	leia n
+	soma <- 0
+	somaQuad <- 0	
+	cont <- 1
+	enquanto cont <= n faça
+		soma <- soma + cont
+		somaQuad <- somaQuad + cont * cont
+		cont <- cont + 1
+	fim enquanto
+	media <- soma / n
+	escreva soma, somaQuad, media
+fim

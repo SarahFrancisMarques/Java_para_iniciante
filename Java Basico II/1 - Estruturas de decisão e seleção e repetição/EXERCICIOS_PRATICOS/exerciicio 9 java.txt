@@ -1,0 +1,18 @@
+class Main {
+  public static void main(String[] args) {
+
+    int salario, nsalario, reaj;
+
+    System.out.println("Digite um numero inteiro: ");
+    salario = Integer.parseInt(System.console().readLine());
+
+    if (salario <= 5000){
+      reaj = salario * 30/100 ;
+      System.out.printf("\nO reajute do salario e : %d ",  reaj);
+
+      nsalario= (salario + reaj);
+      System.out.printf("\nO novo salario e : %d ", nsalario);
+    
+    }
+  }
+}

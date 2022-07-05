@@ -1,0 +1,8 @@
+Algoritmo "Exercício 1"
+var
+	num1, num2, subtr: inteiro
+início
+	leia num1, num2
+	subtr <- num1 - num2
+	escreva subtr
+fim

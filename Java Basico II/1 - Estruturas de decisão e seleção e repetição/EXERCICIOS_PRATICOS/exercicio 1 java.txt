@@ -1,0 +1,21 @@
+class Main {
+  public static void main(String[] args) {
+
+    int a,b;
+
+    System.out.println("Digite primeiro numero");
+    a = Integer.parseInt(System.console().readLine());
+
+    System.out.println("Digite segundo numero");
+    b = Integer.parseInt(System.console().readLine());
+
+    if (a>b) {
+      System.out.printf("A diferença entre o números lidos é: %d ", (a-b) );
+      
+    }
+    else{
+      System.out.printf("A diferença entre o números lidos é: %d ", (b-a) );
+    }
+  
+  }
+}

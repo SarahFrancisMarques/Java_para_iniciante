@@ -1,0 +1,9 @@
+Algoritmo "Exercício 6"
+var
+	salFixo, valVendas, comissao, salFinal: real
+início
+	leia salFixo, valVendas
+	comissao <- valVendas * 4 / 100
+	salFinal <- salFixo + comissao
+	escreva comissao, salFinal
+fim

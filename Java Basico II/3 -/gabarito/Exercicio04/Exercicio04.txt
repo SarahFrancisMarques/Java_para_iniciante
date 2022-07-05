@@ -1,0 +1,15 @@
+Algoritmo "Exercício 4"
+var
+	n, cont, soma, somaQuad: inteiro
+	media: real
+início
+	leia n
+	soma <- 0
+	somaQuad <- 0
+	para cont de 1 até n faça	
+		soma <- soma + cont
+		somaQuad <- somaQuad + cont * cont
+	fim para
+	media <- soma / n
+	escreva soma, somaQuad, media
+fim

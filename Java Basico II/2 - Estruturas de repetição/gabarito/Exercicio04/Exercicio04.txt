@@ -1,0 +1,16 @@
+Algoritmo "Exercício 4"
+var
+	idade, soma, quantIdades: inteiro
+	media: real
+início
+	soma <- 0
+	quantIdades <- 0
+	leia idade
+	enquanto idade != 0 faça
+		soma <- soma + idade
+		quantIdades <- quantIdades + 1
+		leia idade
+	fim enquanto
+	media <- soma / quantIdades
+	escreva media
+fim

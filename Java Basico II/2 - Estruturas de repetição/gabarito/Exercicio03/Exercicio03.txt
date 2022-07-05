@@ -1,0 +1,11 @@
+Algoritmo "Exercício 3"
+var
+	numero, quad: real
+início
+	leia numero
+	enquanto numero >= 0 faça
+		quad <- numero * numero
+		escreva quad
+		leia numero
+	fim enquanto
+fim

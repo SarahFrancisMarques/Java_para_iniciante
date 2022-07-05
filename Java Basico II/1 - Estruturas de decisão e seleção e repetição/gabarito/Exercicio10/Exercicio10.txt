@@ -1,0 +1,27 @@
+Algoritmo "Exercício 10"
+var
+	notaTrabLab, notaAvSem, notaExFinal, media: real
+	conceito: caractere
+início
+	leia notaTrabLab, notaAvSem, notaExFinal
+
+	media <- (notaTrabLab * 2 + notaAvSem * 3 + notaExFinal * 5) / (2 + 3 + 5)
+
+	se media >= 8 e media <= 10 então
+		conceito <- 'A'
+	fim se
+	se media >= 7 e media < 8 então
+		conceito <- 'B'
+	fim se
+	se media >= 6 e media < 7 então
+		conceito <- 'C'
+	fim se
+	se media >= 5 e media < 6 então
+		conceito <- 'D'
+	fim se
+	se media < 5 então
+		conceito <- 'E'
+	fim se
+
+	escreva media, conceito
+fim

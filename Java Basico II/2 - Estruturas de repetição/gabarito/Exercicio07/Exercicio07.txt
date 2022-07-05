@@ -1,0 +1,11 @@
+Algoritmo "Exercício 7"
+var
+	numero, quad : inteiro
+início
+	numero <- 15
+	enquanto numero <= 200 faça
+		quad <- numero * numero
+		escreva quad
+		numero <- numero + 1
+	fim enquanto
+fim

@@ -1,0 +1,15 @@
+Algoritmo "Exercício 9"
+var
+	cont, penultimo, ultimo, aux : inteiro
+início
+	penultimo <- 0
+	ultimo <- 1
+	cont <- 0
+	repita
+		escreva ultimo
+		aux <- ultimo
+		ultimo <- ultimo + penultimo
+		penultimo <- aux
+		cont <- cont + 1
+	até que cont >= 10 
+fim

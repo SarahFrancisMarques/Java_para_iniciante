@@ -1,0 +1,8 @@
+Algoritmo "Exercício 15"
+var
+	C, F : real
+início
+	leia C
+	F <- 9 * C / 5 + 32
+	escreva F
+fim
